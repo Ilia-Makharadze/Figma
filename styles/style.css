@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container *{
+    color: #FFFFFF;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 20px 260px;
+    font-family:Montserrat;
+    background-color: #26335D;
+}
+.firstNav{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: Hug (275px)px;
+    height: Hug (24px)px;
+    top: 17px;
+    gap: 21px;
+    opacity: 0px;
+    font-size: 14px;
+
+}
+.auth-buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    font-size: 14px;
+    padding-right:270px ;
+}
+.Login{
+    padding: 15px 25px 15px 25px;
+}
+.JoinUs{
+    background-color:#1BC768 ;
+    width: Hug (137px)px;
+    height: Hug (52px)px;
+    padding: 15px 25px 15px 25px;
+    gap: 15px; 
+    border-radius: 5px; 
+    opacity: 0px; 
+
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../Montserrat-VariableFont_wght.ttf);
+}
+.logo{
+    width: 175px;
+    height: 32px;
+    top: 13px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 24px;
+    /* color: #FFFFFF; */
+}
+.fbf{
+    font-family: Montserrat;
+    color: #1BC768;
+    font-size: 16px;
+}
+.AGP{
+    font-family: Montserrat;
+    font-size:58px ;
+    color: #FFFFFF;
+}
+.row{
+    padding: 250px;
+    background-color: #26335D;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.FAW{
+    width: Fixed (573px)px;
+    height: Hug (386px)px;
+    gap: 30px;
+    opacity: 0px;
+
+}
+.waaf{
+    font-size: 20px;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+.getquote{
+    display: flex;
+    gap: 10px;
+    font-family: Montserrat;
+    padding-top: 50px;
+}
+.rame1{
+    color:#FFFFFF ;
+    width: Hug (193px)px;
+    height: Hug (52px)px;
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #1BC768;
+    background-color:#1BC768 ;
+}
+.rame2{
+   color: #1BC768;
+   font-family: Montserrat;
+   width: Hug (162px)px;
+   height: Hug (52px)px;
+   padding: 15px 40px 15px 40px;
+   gap: 10px;
+   border-radius: 5px 0px 0px 0px;
+   opacity: 0px;
+   border: 1px solid #1BC768
+}
+.gallery{
+    position: relative;
+    display: flex;
+    
+}
+.firstPhoto{
+    width: 424.41px;
+    height: 516.8px;
+    gap: 0px;
+    border-radius: 34.38px;
+    opacity: 0px;
+    /* padding-top: 60px; */
+    transform: translateX(50%);
+    
+}
+.secondPhoto{
+    width: 460.5px;
+    /* padding-bottom:60px; */
+    height: 450.4px;
+    left: 187.67px;
+    gap: 0px;
+    border-radius: 34.38px ;
+    opacity: 0px;    
+}
+main{
+    padding: 200px;
+    padding-left: 300px;
+    background:#FFFFFF;
+
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: Fixed (691px)px;
+    height: Hug (134px)px;
+    gap: 10px;
+    opacity: 0px;
+}
+.practise{
+    font-family: Montserrat;
+    color: #1BC768;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
+.online{
+    font-family: Montserrat;
+    color:#252B42 ;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
+.ptt{
+    font-family: Montserrat;
+    color:#737373;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
+.cards{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.col-md-3{
+    display: flex;
+    flex-direction: column;
+    width: Fixed (230px)px;
+    height: Hug (292px)px;
+    padding: 35px 40px 35px 40px;
+    gap: 20px;
+    opacity: 0px;
+    background-color:#FFFFFF ;
+}
+.emergency{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #252B42;
+}
+.redline{
+    width: 50px;
+    height: 2px;
+    gap: 0px;
+    opacity: 0px;
+    background: #E74040;
+}
+.thegra{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color:#737373;
+}
+.col-md-4{
+    display: flex;
+    flex-direction: column;
+    width: Fixed (230px)px;
+    height: Hug (292px)px;
+    padding: 35px 40px 35px 40px;
+    gap: 20px;
+    opacity: 0px;    
+    background: #FFFFFF;
+
+}
+.noteicon{
+    
+    border-radius: 10px 0px 0px 0px;
+    background-color: #DDEEFE;    
+}
+.cancer{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #252B42;
+}
+.thegradual{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+.redline2{
+    background: #E74040;
+    width: 50px;
+    height: 2px;
+    gap: 0px;
+    opacity: 0px;    
+}
+.col-md-5{
+    display: flex;
+    flex-direction: column;
+    width: Fixed (230px)px;
+    height: Hug (312px)px;
+    padding: 35px 40px 35px 40px;
+    gap: 20px;
+    opacity: 0px;
+    background-color: #1BC768;
+}
+.gzzicon{
+   background-color:#FFFFFF ;
+   border-radius: 10px;
+ 
+}
+.Dental{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+}
+.whiteline{
+    width: 50px;
+    height: 2px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+}
+.thegradual1{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    width: 136px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px; 
+}
+.col-md-6{
+    display: flex;
+    flex-direction: column;
+    width: Fixed (230px)px;
+    height: Hug (292px)px;
+    padding: 35px 40px 35px 40px;
+    gap: 20px;
+    opacity: 0px;
+    border: solid #FFFFFF ;
+    background-color: #FFFFFF;
+}
+.medicalicon{
+gap: 10px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+background-color: #B6D7FF;
+}
+.bookno{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+
+}
+.Thegradual2{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+.redline3{
+    width: 50px;
+    height: 2px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #E74040;
+}
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(1deg); }
+    50% { transform: rotate(-1deg); }
+    75% { transform: rotate(1deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.cards  div:hover {
+    animation: wave 0.5s ease-in-out;
+    cursor: pointer; 
+}
